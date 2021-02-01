@@ -14,9 +14,6 @@ A Orientação a Objetos tem uma importância relevante neste contexto pois é u
 As grandes fases de qualquer processo de desenvolvimento LEVANTAMENTO DE REQUISITOS ANÁLISE PROJETO IMPLEMENTAÇÃO TESTES
 
 
-
-
-
 É importante resantar que a Orientação a Objetos beneficia principalmente projetos de grande porte com muitas linhas de código e com a necessidade de serem mantidos e evoluídos.
 
 
