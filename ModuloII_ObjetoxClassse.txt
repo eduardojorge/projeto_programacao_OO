@@ -1,0 +1,58 @@
+ OBJETO
+No paradigma da Orientação a Objetos, a principal estrutura de representação é o Objeto. Semanticamente é uma forma de mapear coisas do mundo real com estruturas internas de um programa de computador.
+
+Logo, o conceito Objeto é definido como qualquer elemento ou ‘coisa’ do mundo real. Uma definição mais formal pode ser conceituada da seguinte forma: um objeto é uma abstração de estruturas do mundo real.
+
+
+Por exemplo, uma pessoa, um relógio, um produto são exemplos de objetos. Todo objeto é composto pelo seu estado que é um conjunto de dados que o
+caracterizam.
+
+Imaginemos um objeto, o carro, com o seguinte estado: uma placa XPT 36789, a informação da quantidade de 40 litros no tanque e o consumo de 10 km/litros.
+
+Um objeto também possui ciclo de vida, ou seja, ele nasce, modifica o seu estado ao longo do tempo e morre.
+A modificação de um objeto no decorrer do seu ciclo de vida representa uma mudança no seu estado ou transição de estado. 
+
+Similar a um elemento do mundo real, um objeto é único por definição. Portanto, um objeto Carro pode até ter o mesmo estado de outro objeto Carro, mas
+são objetos diferentes por definição. Cada um possui o seu ciclo de vida próprio, portanto nascem, mudam de estado e morrem de forma particular. 
+
+O Objeto é uma unidade semântica que agrupa dados, além disso possui um conjunto de comportamentos.
+
+Comportamentos são mecanismos que, normalmente baseados no estado, permitem que o objeto faça algo e/ ou responda sobre uma determinada ação. A mudança
+de estado de um objeto é normalmente realizada através de um comportamento. 
+Por exemplo, a redução da quantidade de litros no tanque do Carro é uma mudança de estado efetuada por um comportamento do próprio objeto. Em Programação Orientada a Objetos, o
+comportamento é escrito através de funções que são denominadas de métodos do objeto.
+
+Por exemplo, um objeto Carro pode possuir o método double getAutonomiaKm() para responder sobre a sua autonomia. Esta ação
+é processada sobre a responsabilidade do objeto Carro que, através do seu estado, pode responder a esse questionamento. Assim, com base no exemplo anterior, para saber a autonomia, seria feito o cálculo da (Quantidade de litros x Consumo), então (40 litros x 10km/litros) = 400km.
+
+Ainda sobre Objeto, ele é um módulo indivisível ou atômico com métodos (comportamento) e o seu estado são variáveis que mapeiam informações compartilhadas por todos os métodos. Os métodos e o estado de um objeto são agrupados, no mesmo local, sobre uma semântica única, ou seja, em um único objeto.
+
+
+ CLASSE
+ 
+Um conjunto de objetos do mesmo tipo é denominado de Classe. Define-se como uma forma natural de agrupar os objetos que possuem as mesmas características.
+Diferente do objeto, a Classe não possui estado, assim, pode-se conceituar Classe como uma estrutura estática utilizada para a construção de objetos.
+
+Quando um Objeto é gerado a par tir de uma Classe este herda todas as características da Classe, adicionando o seu estado particular. Assim, uma Classe determina os padrões estruturais do objeto. Uma Classe é constituída de atributos (variáveis compartilhadas) e de comportamentos representados pelas funções denominadas na concepção de um Objeto como métodos.
+
+No exemplo do objeto Carro, pode-se definir a classe Carro com os atributos placa, combustível, consumo e o comportamento representado através do método double getAutonomiaKm(). 
+
+Sobre o questionamento de quem nasce primeiro um objeto ou uma classe, ressalta-se que é necessário, primeiro, a definição da Classe para,
+posteriormente, efetuar-se a geração dos objetos com base na Classe. Assim, entende-se também o conceito Classe como uma fábrica de objetos do mesmo tipo.
+
+A criação de um objeto com base em uma Classe também é conhecida com a nomenclatura instância de Classe. 
+
+Para ilustrar o conceito de classe, pode-se fazer uma analogia com a planta de uma casa.
+Com base nesta planta, são construídas n casas (objetos) com as mesmas características básicas, diferenciandoas através do seu estado particular, por exemplo: cada casa pode ter uma cor diferenciada.
+
+Através da análise comparativa entre Classe e Objeto, concluem-se os seguintes pontos:
+• Classe é uma estrutura estática composta por atributos e métodos.
+• Uma Classe tem como funcionalidade principal ser uma estrutura
+genérica para a construção de objetos, ou seja, uma fábrica de
+objetos.
+• Um objeto é gerado sempre a partir de uma Classe (instância de
+classe), herdando todas as suas características atributos e métodos,
+adicionando mais o estado.
+• O estado do objeto é entendido como os valores assumidos ao
+longo do tempo pelos atributos, sendo utilizados como os dados para
+os métodos.
